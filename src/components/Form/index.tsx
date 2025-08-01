@@ -4,8 +4,8 @@ import Button from '../Button'
 class Form extends React.Component {
     render(){
         return (
-            <form>
-                <div>
+            <form className='novaTarefa'>
+                <div className='inputContainer'>
                     <label htmlFor="tarefa">
                         Adicione um novo estudo
                     </label>
@@ -16,7 +16,7 @@ class Form extends React.Component {
                            required
                     />
                 </div>
-                <div>
+                <div className='inputContainer'>
                     <label>
                         Tempo
                     </label>
